@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "8f2da232703878461f2a7fcbafb6a9d09ff52da8"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "ShoeHub.DataGenerator/1.0.0": {
+        "dependencies": {
+          "JustEat.StatsD": "4.0.1"
+        },
+        "runtime": {
+          "ShoeHub.DataGenerator.dll": {}
+        }
+      },
+      "JustEat.StatsD/4.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/JustEat.StatsD.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.1.621"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoeHub.DataGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JustEat.StatsD/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZcZIVG31QeoE0+qxM2xJcixzEvnqNEhGXGN9ntJCfkk1T4tjWCJLdAjFrKGbdmxYFYYOyZFOL74r9eRGPPS/wQ==",
+      "path": "justeat.statsd/4.0.1",
+      "hashPath": "justeat.statsd.4.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VN6zV4xkMKIxIP48kQzXieZPWXUeGL3M1nQvgXCm44EAvi2eC0gYj/ldrfPde4JF3TOypAENZvuJX1qkTFAgew==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\libhostpolicy.so
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\libhostfxr.so
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.deps.json
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.runtimeconfig.json
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.runtimeconfig.dev.json
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.dll
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.pdb
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.csprojAssemblyReference.cache
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.csproj.CoreCompileInputs.cache
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.AssemblyInfoInputs.cache
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.AssemblyInfo.cs
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.dll
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Release\netcoreapp2.2\ubuntu.18.04-x64\ShoeHub.DataGenerator.pdb

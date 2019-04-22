@@ -1,0 +1,12 @@
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Debug\netcoreapp2.2\ShoeHub.DataGenerator.exe
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Debug\netcoreapp2.2\ShoeHub.DataGenerator.deps.json
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Debug\netcoreapp2.2\ShoeHub.DataGenerator.runtimeconfig.json
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Debug\netcoreapp2.2\ShoeHub.DataGenerator.runtimeconfig.dev.json
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Debug\netcoreapp2.2\ShoeHub.DataGenerator.dll
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\bin\Debug\netcoreapp2.2\ShoeHub.DataGenerator.pdb
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Debug\netcoreapp2.2\ShoeHub.DataGenerator.csprojAssemblyReference.cache
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Debug\netcoreapp2.2\ShoeHub.DataGenerator.csproj.CoreCompileInputs.cache
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Debug\netcoreapp2.2\ShoeHub.DataGenerator.AssemblyInfoInputs.cache
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Debug\netcoreapp2.2\ShoeHub.DataGenerator.AssemblyInfo.cs
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Debug\netcoreapp2.2\ShoeHub.DataGenerator.dll
+C:\Source\ShoeHubGlobal\ShoeHub.DataGenerator\obj\Debug\netcoreapp2.2\ShoeHub.DataGenerator.pdb
