@@ -50,11 +50,12 @@ namespace ShoeHub.DataGenerator
 
             for (int i = 1; i <= dataPointsCount; i++)
             {
-                var shoeType = shoeTypes[randomGenerator.Next(shoeTypes.Length - 1)];
+                Console.WriteLine("Sending metrics to server...");
+                var shoeType = shoeTypes[randomGenerator.Next(shoeTypes.Length)];
                 var salesBucketName = $"shoehub.sales.{shoeType}";
                 publisher.Increment(1, salesBucketName);
 
-                var countryCode = countryCodes[randomGenerator.Next(countryCodes.Length - 1)];
+                var countryCode = countryCodes[randomGenerator.Next(countryCodes.Length)];
                 var paymentOrRefund = randomGenerator.Next(1);
 
                 if (paymentOrRefund == Refund)
@@ -65,12 +66,12 @@ namespace ShoeHub.DataGenerator
                 }
                 else
                 {
-                    var paymentMethod = paymentMethods[randomGenerator.Next(paymentMethods.Length - 1)];
+                    var paymentMethod = paymentMethods[randomGenerator.Next(paymentMethods.Length)];
                     var paymentMethodBucketName = $"shoehub.{countryCode}.payments.{paymentMethod}";
                     var paymentValue = randomGenerator.Next(1000);
                     publisher.Gauge(paymentValue, paymentMethodBucketName);
                 }
-                Thread.Sleep(new TimeSpan(0,0, randomGenerator.Next(60)));
+                Thread.Sleep(new TimeSpan(0,0,0, randomGenerator.Next(60)));
             }
 
             Console.WriteLine("All datapoints were sent to StatsD. Press any keys...");
