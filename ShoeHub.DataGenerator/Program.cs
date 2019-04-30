@@ -14,7 +14,7 @@ namespace ShoeHub.DataGenerator
             
             getIpAddress:
 
-            Console.Write("Enter the IP address of your StatsD server:");
+            Console.Write("Enter the IP address of your StatsD server: ");
             var ipAddress = Console.ReadLine();
 
             if (string.IsNullOrEmpty(ipAddress))
@@ -26,7 +26,7 @@ namespace ShoeHub.DataGenerator
 
             getNumberOfDataPoints:
 
-            Console.Write($"Please enter the number of data points from 1 to {int.MaxValue - 1}");
+            Console.Write($"Please enter the number of data points from 1 to ({(int.MaxValue - 1).ToString("###,###")}): ");
             var dataPointsCount = 0;
             var dataPointsCountStr = Console.ReadLine();
             if (!int.TryParse(dataPointsCountStr, out dataPointsCount))
