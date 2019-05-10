@@ -52,11 +52,17 @@ namespace ShoeHub.DataGenerator
             {
                 Console.WriteLine("Sending metrics to server...");
                 var shoeType = shoeTypes[randomGenerator.Next(shoeTypes.Length)];
+
                 var salesBucketName = $"shoehub.sales.{shoeType}";
-                publisher.Increment(1, salesBucketName);
+                var soldValue = randomGenerator.Next(10,20);
+                publisher.Increment(soldValue, salesBucketName);
+                publisher.Increment(soldValue, $"{salesBucketName}.min");
+                publisher.Increment(soldValue, $"{salesBucketName}.max");
+
+                Console.WriteLine($"{salesBucketName}:{soldValue}");
 
                 var countryCode = countryCodes[randomGenerator.Next(countryCodes.Length)];
-                var paymentOrRefund = randomGenerator.Next(1);
+                var paymentOrRefund = randomGenerator.Next(2);
 
                 if (paymentOrRefund == Refund)
                 {
@@ -71,7 +77,7 @@ namespace ShoeHub.DataGenerator
                     var paymentValue = randomGenerator.Next(1000);
                     publisher.Gauge(paymentValue, paymentMethodBucketName);
                 }
-                Thread.Sleep(new TimeSpan(0,0,0, randomGenerator.Next(60)));
+                Thread.Sleep(new TimeSpan(0,0,0,0, randomGenerator.Next(500)));
             }
 
             Console.WriteLine("All datapoints were sent to StatsD. Press any keys...");
